@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Project-3 E-learning</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="Assests/CSS/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000& display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg sticky-lg-top bg-white py-0">
+    <div class="container-fluid ps-md-4 ps-lg-5 pe-0">
+      <a href="index.html" class="navbar-brand text-info ">
+        <h2 class="m-0 fw-bold">
+          <i class="fa-solid fa-book me-2"></i>
+          eLEARNING
+        </h2>
+      </a>
+      <button class="navbar-toggler bg-white m-3 rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse text-uppercase" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto fw-bold p-4 p-lg-0 d-flex align-items-center" style="font-size: 15px;">
+          <li class="nav-item me-lg-2 me-xl-4">
+            <a href="#" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item me-lg-2 me-xl-4">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item me-lg-2 me-xl-4">
+            <a href="#" class="nav-link">Courses</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link" data-bs-toggle="dropdown">Pages
+              <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <ul class="dropdown-menu m-0 p-0">
+              <li><a href="#" class="dropdown-item">Our Team</a></li>
+              <li><a href="#" class="dropdown-item">Testimonial</a></li>
+              <li><a href="#" class="dropdown-item">404 page</a></li>
+            </ul>
+          </li>
+          <li class="nav-item me-lg-2 me-xl-4"><a href="#" class="nav-link">Contact</a></li>
+          <li class="nav-item">
+          <a href="#" class="btn btn-info rounded-0 py-4 px-lg-5 text-white d-none d-lg-block">
+            Join Now
+            <i class="fa-solid fa-arrow-right ms-lg-2"></i>
+          </a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- carousel/ slider -->
+  <div class="mb-5">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <div class="d-block w-100 bg-carousel1">
+            <div class="px-4 ps-md-5 w-100 h-100 d-flex align-items-center justify-content-center">
+              <div class="ps-md-5">
+                <h5 class="fw-bold text-info text-uppercase">best online courses</h5>
+                <h1 class=" fw-bold text-white display-3 text-capitalize col-md-8">The Best Online Learning Platform</h1>
+                <p class="text-white fs-5 col-md-8">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+                <br>
+                <div>
+                  <a href="#" class="btn btn-info me-3 text-white text-capitalize rounded-0 py-2 px-3 py-md-3 px-md-5 fw-semibold">read more</a>
+                  <a href="#" class="btn btn-light text-capitalize rounded-0 py-2 px-3 py-md-3 px-md-5 fw-semibold">join now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <div class="d-block w-100 bg-carousel2">
+            <div class="px-4 ps-md-5 w-100 h-100 d-flex align-items-center justify-content-center">
+              <div class="ps-md-5">
+                <h5 class="fw-bold text-info text-uppercase">best online courses</h5>
+                <h1 class=" fw-bold text-white display-3 text-capitalize col-md-8">Get Educated Online From Your Home</h1>
+                <p class="text-white fs-5 col-md-8">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+                <br>  
+                <div>
+                  <a href="#" class="btn btn-info me-3 text-white text-capitalize rounded-0 py-2 px-3 py-md-3 px-md-5 fw-semibold">read more</a>
+                  <a href="#" class="btn btn-light text-capitalize rounded-0 py-2 px-3 py-md-3 px-md-5 fw-semibold">join now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon border border-light" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon border border-light" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- section 1 -->
+  <div class="container py-5 px-4">
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6">
+        <div class="p-4 bg-light text-center sec1-card overflow-hidden h-100">
+          <div class="p-3"><i class="text-info icon1 fa-3x fa-solid fa-graduation-cap"></i></div>
+          <div>
+            <h4 class="text-capitalize fw-bold">skilled instructor</h4>
+            <p class="text-secondary">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="p-4 bg-light text-center sec1-card overflow-hidden h-100">
+          <div class="p-3"><i class="text-info icon1 fa-3x fa-solid fa-globe"></i></div>
+          <div>
+            <h4 class="text-capitalize fw-bold">online classes</h4>
+            <p class="text-secondary">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="p-4 bg-light text-center sec1-card overflow-hidden h-100">
+          <div class="p-3"><i class="text-info icon1 fa-3x fa-solid fa-house-chimney"></i></div>
+          <div>
+            <h4 class="text-capitalize fw-bold">home projects</h4>
+            <p class="text-secondary">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="p-4 bg-light text-center sec1-card overflow-hidden h-100">
+          <div class="p-3"><i class="text-info icon1 fa-3x fa-solid fa-book-open"></i></div>
+          <div>
+            <h4 class="text-capitalize fw-bold">book library</h4>
+            <p class="text-secondary">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- section 2 -->
+  <div class="container py-5 px-4">
+    <div class="row g-5 align-items-center justify-content-center">
+      <div class="col-lg-6">
+        <div class="">
+          <img src="Assests/Images/about.jpg" alt="about" class="img-fluid" style="max-height: 450px; width: 680px;">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div>
+          <h6 class="text-info text-uppercase fw-bold">About us -----</h6>
+          <h1 class="fw-bold mb-4">Welcome to eLEARNING</h1>
+          <p class="mb-4 text-about">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+          <p class="mb-4 text-about">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+          <div class="row">
+            <div class="col-md-6">
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2 text-about"><i class="fa-solid fa-arrow-right text-info me-2"></i>Skilled Instructors</li>
+                <li class="mb-2 text-about"><i class="fa-solid fa-arrow-right text-info me-2"></i>International Certificate</li>
+                <li class="mb-2 text-about"><i class="fa-solid fa-arrow-right text-info me-2"></i>Online Classes</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-unstyled">
+                <li class="mb-2 text-about"><i class="fa-solid fa-arrow-right text-info me-2"></i>Online Classes</li>
+                <li class="mb-2 text-about"><i class="fa-solid fa-arrow-right text-info me-2"></i>Skilled Instructors</li>
+                <li class="mb-2 text-about"><i class="fa-solid fa-arrow-right text-info me-2"></i>International Certificate</li>
+              </ul>
+            </div>
+          </div>
+          <div class="mt-3">
+            <a href="#" class="btn btn-info px-5 py-3 rounded-0 text-white fw-semibold">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- section 3 -->
+  <div class="container my-5 px-4">
+    <h6 class="text-info text-uppercase text-center fw-bold">----- categories -----</h6>
+    <h1 class="text-capitalize text-center fw-bold mb-5">courses categories</h1>
+    <div class="row g-3">
+      <div class="col-lg-7 col-md-6">
+        <div class="row g-0 mb-3">
+          <a href="#" class="text-decoration-none text-dark position-relative">
+            <div class="cat1_img">
+              <div class="overflow-hidden">
+                <img src="Assests/Images/cat-1.jpg" alt="cat-1" class="img-fluid cat" style="min-height: 181px;">
+              </div>
+              <div class="position-absolute end-0" style="margin-top: -68.5px;">
+                <div class="bg-white px-3 py-1 text-center border">
+                  <h5 class="text-capitalize text-dark fw-bold">web design</h5>
+                  <h6 class="text-info">49 Courses</h6>
+                </div>
+               </div>
+              
+            </div>
+          </a>
+        </div>
+        <div class="row g-3">
+          <div class="col-lg-6">
+            <a href="#" class="text-decoration-none text-dark position-relative">
+              <div class="cat1_img">
+                <div class="overflow-hidden">
+                  <img src="Assests/Images/cat-2.jpg" alt="cat-2" class="img-fluid cat">
+                </div>
+                <div class="position-absolute end-0" style="margin-top: -68.5px;">
+                  <div class="bg-white px-3 py-1 text-center border">
+                    <h5 class="text-capitalize text-dark fw-bold">graphic design</h5>
+                    <h6 class="text-info">49 Courses</h6>
+                  </div>
+                 </div>
+                
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a href="#" class="text-decoration-none text-dark position-relative">
+              <div class="cat1_img">
+                <div class="overflow-hidden">
+                  <img src="Assests/Images/cat-3.jpg" alt="cat-3" class="img-fluid cat">
+                </div>
+                <div class="position-absolute end-0" style="margin-top: -68.5px;">
+                  <div class="bg-white px-3 py-1 text-center border">
+                    <h5 class="text-capitalize text-dark fw-bold">video editing</h5>
+                    <h6 class="text-info">49 Courses</h6>
+                  </div>
+                 </div>
+                
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-6">
+        <a href="#" class="text-decoration-none text-dark position-relative">
+          <div class="cat1_img">
+            <div class="overflow-hidden cat-4">
+              <img src="Assests/Images/cat-4.jpg" alt="cat-4" class="img-fluid cat">
+            </div>
+            <div class="position-absolute end-0" style="margin-top: -68.5px;">
+              <div class="bg-white px-3 py-1 text-center border">
+                <h5 class="text-capitalize text-dark fw-bold">online marketing</h5>
+                <h6 class="text-info">49 Courses</h6>
+              </div>
+             </div>
+            
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+    <!-- section 4 -->
+  <div class="container my-5 py-4 px-4">
+      <h6 class="text-info text-uppercase text-center fw-bold">----- courses -----</h6>
+      <h1 class="text-capitalize text-center fw-bold mb-5">Popular Courses</h1>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <figure class="course1">
+            <div class="position-relative">
+              <div class="overflow-hidden">
+                <img src="Assests/Images/course-1.jpg" alt="course1" class="img-fluid course1-img">
+              </div>
+              <div class="position-absolute bottom-0 start-0 ms-5 py-3">
+                <div class=" ms-md-4 ms-lg-0 ms-xxl-5 ms-xl-4">
+                  <div class="btn-group ms-xxl-3 ms-xl-1" role="group" aria-label="Basic example">
+                    <a href="#" class="btn btn-info rounded-start-5 text-white text-capitalize">read more</a>
+                    <a href="#" class="btn btn-info rounded-end-5 text-white text-capitalize border-start">join now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <figcaption>
+              <div class="text-center bg-light pt-3">
+                <h3 class="fw-bold">$149.00</h3>
+                <h6 class="text-info">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                <span class="text-secondary">(123)</span>
+                </h6>
+                <h4 class="fw-bold p-3">Web Design & Development Course for Beginners</h4>
+                <div class="d-flex justify-content-between border-top">
+                  <p class="small text-secondary py-1 p-md-2 p-lg-1 p-xxl-2 px-xxl-4 mb-0"><i class="me-2 text-info fa-solid fa-user-tie"></i>John Doe</p>
+                  <p class="small text-secondary border-start border-end py-1 px-1 p-md-2 p-lg-1 p-xxl-2 px-xxl-4 mb-0"><i class="me-2 text-info fa-solid fa-clock"></i>1.49 Hrs</p>
+                  <p class="small text-secondary py-1 p-md-2 p-lg-1 p-xxl-2 px-xxl-4 mb-0"><i class="me-2 text-info fa-solid fa-user"></i>30 Students</p>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <figure class="course1">
+            <div class="position-relative">
+              <div class="overflow-hidden">
+                <img src="Assests/Images/course-2.jpg" alt="course2" class="img-fluid course1-img">
+              </div>
+              <div class="position-absolute bottom-0 start-0 ms-5 py-3">
+                <div class="ms-md-4 ms-lg-0 ms-xxl-5 ms-xl-4">
+                  <div class="btn-group ms-xxl-3 ms-xl-1" role="group" aria-label="Basic example">
+                    <a href="#" class="btn btn-info rounded-start-5 text-white text-capitalize">read more</a>
+                    <a href="#" class="btn btn-info rounded-end-5 text-white text-capitalize border-start">join now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <figcaption>
+              <div class="text-center bg-light pt-3">
+                <h3 class="fw-bold">$149.00</h3>
+                <h6 class="text-info">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                <span class="text-secondary">(123)</span>
+                </h6>
+                <h4 class="fw-bold p-3">Web Design & Development Course for Beginners</h4>
+                <div class="d-flex justify-content-between border-top">
+                  <p class="small text-secondary py-1 p-md-2 p-lg-1 p-xxl-2 px-xxl-4 mb-0"><i class="me-2 text-info fa-solid fa-user-tie"></i>John Doe</p>
+                  <p class="small text-secondary border-start border-end py-1 px-1 p-md-2 p-lg-1 p-xxl-2 px-xxl-4 mb-0"><i class="me-2 text-info fa-solid fa-clock"></i>1.49 Hrs</p>
+                  <p class="small text-secondary py-1 p-md-2 p-lg-1 p-xxl-2 px-xxl-4 mb-0"><i class="me-2 text-info fa-solid fa-user"></i>30 Students</p>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <figure class="course1">
+            <div class="position-relative">
+              <div class="overflow-hidden">
+                <img src="Assests/Images/course-3.jpg" alt="course3" class="img-fluid course1-img">
+              </div>
+              <div class="position-absolute bottom-0 start-0 ms-5 py-3">
+                <div class="ms-md-4 ms-lg-0 ms-xxl-5 ms-xl-4">
+                  <div class="btn-group ms-xxl-3 ms-xl-1" role="group" aria-label="Basic example">
+                    <a href="#" class="btn btn-info rounded-start-5 text-white text-capitalize">read more</a>
+                    <a href="#" class="btn btn-info rounded-end-5 text-white text-capitalize border-start">join now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <figcaption>
+              <div class="text-center bg-light pt-3">
+                <h3 class="fw-bold">$149.00</h3>
+                <h6 class="text-info">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                <span class="text-secondary">(123)</span>
+                </h6>
+                <h4 class="fw-bold p-3">Web Design & Development Course for Beginners</h4>
+                <div class="d-flex justify-content-between border-top">
+                  <p class="small text-secondary py-1 p-md-2 p-lg-1 p-xxl-2 px-xxl-4 mb-0"><i class="me-2 text-info fa-solid fa-user-tie"></i>John Doe</p>
+                  <p class="small text-secondary border-start border-end py-1 px-1 p-md-2 p-lg-1 p-xxl-2 px-xxl-4 mb-0"><i class="me-2 text-info fa-solid fa-clock"></i>1.49 Hrs</p>
+                  <p class="small text-secondary py-1 p-md-2 p-lg-1 p-xxl-2 px-xxl-4 mb-0"><i class="me-2 text-info fa-solid fa-user"></i>30 Students</p>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+  </div>
+  <!-- section 5 -->
+  <div class="container my-5 py-4 px-4">
+    <h6 class="text-info text-uppercase text-center fw-bold">----- Instructors -----</h6>
+    <h1 class="text-capitalize text-center fw-bold mb-5">Expert Instructors</h1>
+    <div class="row g-4">
+      <div class="col-lg-3 col-md-6">
+        <figure class="team1">
+          <div class="overflow-hidden">
+            <img src="Assests/Images/team-1.jpg" alt="team1" class="img-fluid team1-img">
+          </div>
+          <figcaption class="bg-light">
+            <div class="d-flex justify-content-center text-center position-relative">
+              <div class="py-2 bg-light w-50" style="margin-top: -25px;">
+                <a href="#" class="text-decoration-none">
+                  <i class="text-white bg-info p-2 p-lg-1 p-xl-2 mx-1 fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <i class="text-white bg-info p-2 p-lg-1 p-xl-2 mx-1 fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <i class="text-white bg-info p-2 p-lg-1 p-xl-2 mx-1 fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="text-center mt-2 p-2">
+              <h5 class="fw-bold">Instructor Name</h5>
+              <p class="small text-secondary">Designation</p>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <figure class="team1">
+          <div class="overflow-hidden">
+            <img src="Assests/Images/team-2.jpg" alt="team2" class="img-fluid team1-img">
+          </div>
+          <figcaption class="bg-light">
+            <div class="d-flex justify-content-center text-center position-relative">
+              <div class="py-2 bg-light w-50" style="margin-top: -25px;">
+                <a href="#" class="text-decoration-none">
+                  <i class="text-white bg-info p-2 p-lg-1 p-xl-2 mx-1 fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <i class="text-white bg-info p-2 p-lg-1 p-xl-2 mx-1 fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <i class="text-white bg-info p-2 p-lg-1 p-xl-2 mx-1 fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="text-center mt-2 p-2">
+              <h5 class="fw-bold">Instructor Name</h5>
+              <p class="small text-secondary">Designation</p>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <figure class="team1">
+          <div class="overflow-hidden">
+            <img src="Assests/Images/team-3.jpg" alt="team3" class="img-fluid team1-img">
+          </div>
+          <figcaption class="bg-light">
+            <div class="d-flex justify-content-center text-center position-relative">
+              <div class="py-2 bg-light w-50" style="margin-top: -25px;">
+                <a href="#" class="text-decoration-none">
+                  <i class="text-white bg-info p-2 p-lg-1 p-xl-2 mx-1 fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <i class="text-white bg-info p-2 p-lg-1 p-xl-2 mx-1 fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <i class="text-white bg-info p-2 p-lg-1 p-xl-2 mx-1 fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="text-center mt-2 p-2">
+              <h5 class="fw-bold">Instructor Name</h5>
+              <p class="small text-secondary">Designation</p>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <figure class="team1">
+          <div class="overflow-hidden">
+            <img src="Assests/Images/team-4.jpg" alt="team4" class="img-fluid team1-img">
+          </div>
+          <figcaption class="bg-light">
+            <div class="d-flex justify-content-center text-center position-relative">
+              <div class="py-2 bg-light w-50" style="margin-top: -25px;">
+                <a href="#" class="text-decoration-none">
+                  <i class="text-white bg-info p-2 p-lg-1 p-xl-2 mx-1 fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <i class="text-white bg-info p-2 p-lg-1 p-xl-2 mx-1 fa-brands fa-twitter"></i>
+                </a>
+                <a href="#" class="text-decoration-none">
+                  <i class="text-white bg-info p-2 p-lg-1 p-xl-2 mx-1 fa-brands fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="text-center mt-2 p-2">
+              <h5 class="fw-bold">Instructor Name</h5>
+              <p class="small text-secondary">Designation</p>
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+  <!-- section 6 : testimonial -->
+  <div class="container my-5 py-4 px-4">
+    <h6 class="text-info text-uppercase text-center fw-bold">----- Testimonial -----</h6>
+    <h1 class="text-capitalize text-center fw-bold mb-5">Our Students Say!</h1>
+    <div class="row gy-4 mt-5">
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial border p-3">
+          <i class="fa-solid fa-3x fa-quote-left mb-2 text-info"></i>
+          <p class="fw-semibold text-secondary">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+          <div>
+            <div class="col-10">
+              <div class="d-flex align-items-center">
+                <img src="Assests/Images/testimonial-1.jpg" alt="testimonial" class="col-3 col-md-2 rounded-circle img-fluid">
+                <div class="pt-3 ps-3">
+                  <h5 class="fw-bold">Client Name</h5>
+                  <p class="small text-secondary">Profession</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial border p-3">
+          <i class="fa-solid fa-3x fa-quote-left mb-2 text-info"></i>
+          <p class="fw-semibold text-secondary">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+          <div>
+            <div class="col-10">
+              <div class="d-flex align-items-center">
+                <img src="Assests/Images/testimonial-2.jpg" alt="testimonia2" class="col-3 col-md-2 rounded-circle img-fluid">
+                <div class="pt-3 ps-3">
+                  <h5 class="fw-bold">Client Name</h5>
+                  <p class="small text-secondary">Profession</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="testimonial border p-3">
+          <i class="fa-solid fa-3x fa-quote-left mb-2 text-info"></i>
+          <p class="fw-semibold text-secondary">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+          <div>
+            <div class="col-10">
+              <div class="d-flex align-items-center">
+                <img src="Assests/Images/testimonial-3.jpg" alt="testimonial3" class="col-3 col-md-2 rounded-circle img-fluid">
+                <div class="pt-3 ps-3">
+                  <h5 class="fw-bold">Client Name</h5>
+                  <p class="small text-secondary">Profession</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <footer class="bgcolor">
+    <div class="container pt-5 text-white">
+      <div class="row py-5">
+        <div class="col-md-6 col-lg-3 mb-5">
+            <h4 class="text-start text-info fw-bold">Company</h4>
+          <ul class="ps-0 pt-3 list-unstyled">
+            <li class="mb-2"><i class="fa-solid fa-angle-right me-2"></i> <a href="#" class="text-decoration-none text-white spacing"> About Us</a></li>
+            <li class="mb-2"><i class="fa-solid fa-angle-right me-2"></i> <a href="#" class="text-decoration-none text-white spacing"> Contact Us</a></li>
+            <li class="mb-2"><i class="fa-solid fa-angle-right me-2"></i> <a href="#" class="text-decoration-none text-white spacing"> Privacy Policy</a></li>
+            <li class="mb-2"><i class="fa-solid fa-angle-right me-2"></i> <a href="#" class="text-decoration-none text-white spacing"> Terms & Conditions</a></li>
+            <li class="mb-2"><i class="fa-solid fa-angle-right me-2"></i> <a href="#" class="text-decoration-none text-white spacing"> FAQs & Help</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-5">
+            <h4 class="text-start text-info fw-bold">Contact</h4>
+          <ul class="ps-0 pt-3 list-unstyled">
+            <li class="mb-3"><i class="fa-solid fa-location-dot pe-3"></i>123 Street, New York, USA</li>
+            <li class="mb-3"><i class="fa-solid fa-phone pe-3"></i>+012 345 67890</li>
+            <li class="mb-3"><i class="fa-solid fa-envelope pe-3"></i>info@example.com</li>
+            <li class="mb-3">
+              <a href="#" class="social-icon btn btn-outline-light rounded-circle"><i class="px-1 fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon btn btn-outline-light rounded-circle"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="social-icon btn btn-outline-light rounded-circle"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" class="social-icon btn btn-outline-light rounded-circle"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-5">
+          <h4 class="text-start text-info fw-bold">Gallery</h4>
+          <div class="row g-2 pt-4">
+            <div class="col-4">
+              <div class="p-1 bg-light">
+                <img src="Assests/Images/course-1.jpg" alt="gallery" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="p-1 bg-light">
+                <img src="Assests/Images/course-2.jpg" alt="gallery" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="p-1 bg-light">
+                <img src="Assests/Images/course-3.jpg" alt="gallery" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="p-1 bg-light">
+                <img src="Assests/Images/course-3.jpg" alt="gallery" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="p-1 bg-light">
+                <img src="Assests/Images/course-2.jpg" alt="gallery" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="p-1 bg-light">
+                <img src="Assests/Images/course-1.jpg" alt="gallery" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-5 ps-lg-4">
+          <h4 class="text-start text-info fw-bold">Newsletter</h4>
+          <ul class="ps-0 pt-3 list-unstyled">
+            <li class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.</li>
+            <li class="position-relative">
+              <input type="email" class="p-3 w-100 form-control rounded-0" placeholder="Your Email">
+              <a href="#" class="position-absolute top-0 end-0 mt-2 py-2 px-3 me-2 btn btn-info rounded-0 text-uppercase  text-white">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+        <div class="border-top border-secondary">
+          <div class="row py-4">
+            <div class="col-md-7 col-xl-6">
+              &copy;
+              <a class="border-bottom text-info text-decoration-none" href="#"> Your Site Name</a>
+              , All Rights Reserved. Designed By 
+              <a class="border-bottom text-info text-decoration-none" href="#"> HTML Codex</a>
+              <br>
+              <br>
+              Distributed By <a class="border-bottom text-info text-decoration-none" href="#"> ThemeWagon</a> 
+            </div>
+            <div class="d-none d-lg-block col-lg-1 col-xl-3"></div>
+            <div class="col-md-5 col-lg-4 col-xl-3">
+                <div class="d-flex justify-content-between mt-3 mt-md-0">
+                <a href="#" class="text-white text-decoration-none border-1 border-end border-secondary pe-3">Home</a> 
+                <a href="#" class="text-white text-decoration-none border-1 border-end border-secondary pe-3">Cookies</a> 
+                <a href="#" class="text-white text-decoration-none border-1 border-end border-secondary pe-3">Help</a> 
+                <a href="#" class="text-white text-decoration-none">FAQs</a>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

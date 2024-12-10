@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+/* :root {
+  --info: #06BBCC;
+  --light: #F0FBFC;
+  --dark: #181d38;
+} */
+
+p,li{
+  font-family: "Heebo", sans-serif;
+}
+.bg-light{
+  background-color: #F0FBFC !important;
+}
+.text-about{
+  color: #52565b;
+}
+.nav-item .active{
+  color: #06BBCC !important;
+}
+
+.bg-carousel1{
+  height: 78vh;
+  background: linear-gradient(rgba(24, 29, 56, .7),rgba(24, 29, 56, .7)), url(../Images/carousel-1.jpg);
+  background-size: cover;
+  
+}
+.bg-carousel2{
+  height: 78vh;
+  background: linear-gradient(rgba(24, 29, 56, .7),rgba(24, 29, 56, .7)), url(../Images/carousel-2.jpg);
+  background-size: cover;
+}
+
+/* footer */
+.bgcolor{
+  background-color: #181d38;
+}
+.form-control:focus {
+  border-color: #06BBCC !important;
+  box-shadow: 0 0 0 .25rem rgba(3, 185, 202, 0.6) !important;
+}
+.social-icon:hover{
+  background-color: #F1F8FF;
+  color: #06BBCC;
+}
+.spacing{
+  transition: letter-spacing 0.4s ease-in-out;
+}
+.spacing:hover {
+  letter-spacing: 1.2px;
+}
+/* animation */
+/* navlink */
+.nav-link:hover{
+  color: #06BBCC;
+}
+.nav-item .active:hover{
+  color: #000000A6 !important;
+}
+/* sec1 card */
+.sec1-card:hover{
+  transform: translateY(-14px);
+  color: white;
+  background-color: #06BBCC !important;
+}
+.sec1-card:hover .icon1{
+  color: white !important;
+}
+.sec1-card:hover p{
+  color: white !important;
+}
+.sec1-card{
+  transition: transform .5s ease-in;
+}
+/*image zoom in  */
+.cat{
+  transition: all 1s ease-in-out;
+}
+.cat1_img:hover .cat{
+  transform: scale(1.1);
+}
+
+/* ----- courses ----- */
+.course1-img{
+  transition: all 1s ease-in-out;
+}
+.course1:hover .course1-img{
+  transform: scale(1.1);
+}
+
+/* ----- Instructors ----- */
+.team1-img{
+  transition: all 1s ease-in-out;
+}
+.team1:hover .team1-img{
+  transform: scale(1.1);
+}
+
+
+@media(min-width:768px){
+  .cat-4 img{
+    height: 105.5vh !important;
+  }
+}
+
+@media(min-width:992px){
+  .bg-carousel1{
+    height: 100vh;
+  }
+  .bg-carousel2{
+    height: 100vh;
+  }
+  .cat-4 img{
+    height: 62.2vh !important;
+  }
+  
+}
+@media(min-width:1200px){
+  .cat-4 img{
+    height: 74.2vh !important;
+  }
+}
+@media(min-width:1400px){
+ 
+  .cat-4 img{
+    height: 75.5vh !important;
+  }
+}
